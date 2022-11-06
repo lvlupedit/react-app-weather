@@ -1,0 +1,38 @@
+.city-search {
+  font-size: 1em;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 1px solid rgba(82, 81, 85, 0.7);
+  font-family: "Roboto", sans-serif;
+  background-color: #efefef;
+}
+
+.search-button,
+.location-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 40px !important;
+  border: none;
+  margin: 0 auto;
+  transition: 0.9s;
+  background: linear-gradient(
+      90deg,
+      var(--c1, #f6d365),
+      var(--c2, #fda085) 51%,
+      var(--c1, #f6d365)
+    )
+    var(--x, 0) / 200% !important;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.search-button:hover,
+.location-button:hover {
+  --x: 100%;
+}
+
+.button-icon {
+  width: 2em;
+  padding: 5px;
+}
